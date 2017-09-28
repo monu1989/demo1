@@ -1,0 +1,317 @@
+/*
+ Theme Name:     Twenty Seventeen Child Theme
+ Theme URI:      http://hyperlinkcode.com/blog/twenty-seventeen-child-theme/
+ Description:    A bare-bones child theme for use with WordPress Twenty Seventeen Theme. Pick matching colors quickly at <a href="http://www.html-color-names.com/">html-color-names.com</a>.
+ Author:         Edward Zivkovic
+ Author URI:     http://www.ezau.com/
+ Template:       twentyseventeen
+ Version:        1.0.0
+*/
+ 
+/* Add Custom CSS after this line */
+
+/* Demo Johnson Box code courtesy of: http://hyperlinkcode.com/blog/html-johnson-box/ */
+body {
+	font-family:Arimo,sans-serif;
+	font: 13px/1.231 sans-serif;
+    font-weight: normal;
+    color:#666666;
+}
+.johnson1 {
+	padding: 20px;
+	background: #ffff99;
+	width: 90%;
+	margin: 20px auto;
+}
+.johnson6 {
+	padding: 20px;
+	background: #ffff99;
+	width: 90%;
+	margin: 20px auto;
+	border: 3px dashed #ee0000;
+}
+.johnson8 {
+	padding: 20px;
+	background: #ccffcc;
+	width: 90%;
+	margin: 20px auto;
+	border-left: 5px solid #ff8080;
+}
+
+/* Other Sample Code */
+
+.warning {
+	color: red;
+}
+.shadow {
+	box-shadow: 0 8px 8px -6px #333;
+}
+@media screen and (max-width:767px){
+#top-menu {
+	background-color:transparent;
+	border-top: none;
+	}
+.main-navigation li {
+    border-bottom: 1px solid #444;
+    position: relative;
+}
+.main-navigation li:hover {
+    border-bottom: 1px solid #00a362;
+}
+.navigation-topnew .top-bar {
+	height:auto;
+}
+#page .bottom-bar {
+	height:auto;
+	line-height:normal;
+	text-align:center;
+	padding:3% 0%;
+}
+.page-id-22 #page .bottom-bar .col-sm-4 span {
+	display:block;
+}
+
+}
+
+
+.bottom-bar {
+    background-color: #213b4c;
+    color: #f7f7f7;
+    display: block;
+    position: relative;
+	color:#888888;
+	height:60px;
+	line-height:60px;
+	text-align:right;
+}
+.bottom-bar a {
+	color:#888888;
+}
+.site-footer {
+	background-color:#2F3133;
+	color:#888888;
+}
+.site-footer .widget-title {
+    color: #888888;
+    font-size: 18px;
+    font-weight: 300;
+}
+.service-section-img img {
+    height: 200px;
+}
+.site-content-contain {
+	background-color: rgba(240, 240, 240, 0.8);
+    background-image: url(img/progressio.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+}
+.top-bar {
+    border-top: 3px solid #2b91c9;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    z-index: 99999;
+}
+
+.top-menu-container {
+    background-color: #233a4c;
+}
+.main-logo img {
+	height:90px;
+}
+.menu-main-menu-container {
+    color: #ffffff;
+    padding-top: 15px;
+}
+.main-navigation a { color:#fff;
+}
+.advps-excerpt-three p {
+	text-align:justify;
+}
+.advs-title {
+	text-transform:uppercase;
+	font-weight:500;
+}
+#post-10 { 
+ border:none;
+}
+.service-section {
+	padding-top:4%;
+	padding-bottom:2%;
+	position:relative;
+}
+.service-section h3 a {
+	color:#000b74;
+	font-weight:400;
+}
+.service-section-img {
+    border: 1px solid #999999;
+    padding: 2%;
+	border-radius: 6px;
+	position:relative;
+}
+.service-section span {
+    bottom: 40px;
+    position: relative;
+}
+.service-section span a {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    color: #ffffff;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 6px;
+    padding-left: 10px;
+    width: 95%;
+}
+.service-section span a:hover {
+	text-decoration:none;
+}
+.graphic-label {
+    bottom: -3px !important;
+    display: block;
+    height: 35px;
+    position: absolute !important;
+    right: -2px;
+    width: 41px;
+    z-index: 2;
+}
+.graphic-label {
+    background: rgba(0, 0, 0, 0) url(img/graphic_label.png) no-repeat scroll left bottom;
+}
+.enquiry h2{ color:#1c5d94; margin-bottom:10px;}
+.enquiry p {
+	font-size:200%;
+	color:#000b74;
+}
+.sep {
+    background-image: url(img/sep.png);
+	clear: both;
+    height: 12px;
+    margin: 20px auto 25px;
+    max-width: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+	width:100%;
+	background-size: 100%;
+}
+.button-wrp .btn
+{
+    background: #444;
+    border: 0 none;
+    color: #fff;
+    padding:15px 35px;
+	border-radius:50px;
+}
+.button-wrp .btn:hover {
+	background: #333;
+}
+.section-bottom h4 a {
+	color:#000b74;
+	font-weight:500;
+}
+.top-bar .social-links a {
+    font-size: 16px;
+    padding: 5px;
+}
+.site-footer ul li {
+    list-style: outside none none;
+	color:#888888;
+}
+.site-footer ul li a, .site-footer a {
+	color:#888888;
+	text-decoration:none;
+	box-shadow: 0 0px 0 #0f0f0f inset;
+}
+.site-footer ul li a:hover, .site-footer a:hover {
+	color:#888888;
+	text-decoration:none;
+	box-shadow: 0 0px 0 #0f0f0f inset;
+}
+.site-footer ul li .fa {
+	margin-right:10px;
+	color:#888888;
+}
+.footer-wrap-section {
+	padding:3% 0% 0%;
+}
+.footer-wrap-section .social-links a {
+    font-size: 16px;
+    padding: 5px;
+}
+#secondary .widget-title {
+	color:#1c5d94;
+	margin-bottom:0px;
+}
+#secondary .widget ul li, #secondary .widget ol li {
+    border-bottom:none;
+    border-top:none;
+    margin-left: 20px;
+	padding: 2px 0;
+	list-style-image:url(img/o_red.png);
+}
+#secondary .widget ul li a, #secondary .widget ol li a {
+	text-decoration:none;
+	box-shadow: 0 0px 0 #0f0f0f inset;
+	border-bottom:solid 1px #ccc;
+	padding-bottom:2px;
+}
+#secondary .widget ul li a:hover, #secondary .widget ol li a:hover{
+	text-decoration:none;
+	box-shadow: 0 0px 0 #0f0f0f inset;
+	border-bottom:solid 1px #00a362;
+	color:#1c5d94;
+}
+#page .bottom-bar .col-sm-4 span {
+    display: table-footer-group;
+}
+.main-navigation ul ul {
+	border:none;
+    background: #213b4c none repeat scroll 0 0;
+}
+.main-navigation li li:hover, .main-navigation li li.focus {
+    background: #173041 none repeat scroll 0 0;
+	border-bottom: 1px solid #00a362;
+}
+.main-navigation li li a:hover, .main-navigation li li a.focus {
+    color: #fefab9;
+}
+.main-navigation a:hover {
+    color: #fefab9;
+}
+.main-navigation li li {
+    border-top: 1px solid #444444;
+	border-bottom: 1px solid #444444;
+    transition: background-color 0.2s ease-in-out 0s;
+}
+.widget a img {
+	box-shadow: 0 0 0 0px #ffffff;
+}
+.widget a {
+    box-shadow: 0 0px 0 #0f0f0f inset;
+    transition: color 80ms ease-in 0s, box-shadow 130ms ease-in-out 0s, -webkit-box-shadow 130ms ease-in-out 0s;
+}
+.widget a:hover {
+    box-shadow: 0 0px 0 #0f0f0f inset;
+    transition: color 80ms ease-in 0s, box-shadow 130ms ease-in-out 0s, -webkit-box-shadow 130ms ease-in-out 0s;
+}
+.page-id-22 .wpcf7 .col-sm-6 {
+	padding-bottom:20px;
+}
+.wpcf7-form-control-wrap {
+    display: block;
+    margin-top: 10px;
+}
+.footer-wrap-section .widget_custom_html ul {
+	margin-left:0px;
+}
+.bx-prev {
+    left: 65% !important;
+    position: absolute;
+    top: 90% !important;
+}
+.bx-next {
+    right: 1% !important;
+    position: absolute;
+    top: 90% !important;
+}
